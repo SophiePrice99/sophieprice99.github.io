@@ -328,20 +328,19 @@ input[type = "text"]{
 }
 
 
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
+/* Position the image container (needed to position the left and right arrows) */
+.container {
     position: relative;
 }
   
-  /* Hide the images by default */
-  .mySlides {
+/* Hide the images by default */
+.mySlides {
     display: none;
 }
   
-  /* Next & previous buttons */
-  .prev,
-  .next {
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -357,19 +356,20 @@ input[type = "text"]{
 }
   
   /* Position the "next button" to the right */
-  .next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
+
 }
   
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: orange;
     font-size: 12px;
     padding: 8px 12px;
@@ -377,32 +377,32 @@ input[type = "text"]{
     top: 0;
 }
   
-  /* Container for image text */
-  .caption-container {
+/* Container for image text */
+.caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: pink;
- }
+}
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
- }
+}
   
-  /* Six columns side by side */
-  .column {
+/* Six columns side by side */
+.column {
     float: left;
     width: 33%;
 }
   
-  /* Add a transparency effect for thumnbail images */
-  .demo {
+/* Add a transparency effect for thumnbail images */
+.demo {
     opacity: 0.6;
 }
   
-  .active,
-  .demo:hover {
+.active,
+.demo:hover {
     opacity: 1;
 }
