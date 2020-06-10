@@ -468,7 +468,7 @@ input[type = "text"]{
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
+    color: darkslategray;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -480,7 +480,7 @@ input[type = "text"]{
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
-    color: white;
+    color: darkslategray;
   }
   
   .row:after {
