@@ -1,0 +1,417 @@
+/* HOME PAGE */
+
+.background-home{
+    background-image: url(../img/pic2.jpeg);
+    height: auto;
+    background-position: center;
+}
+
+.heading-home{
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+/* HEADINGS & BODY */
+
+.center-text{
+    text-align: center;
+}
+
+.h3{
+    font-size: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.heading1 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    color: darkslategrey;
+}
+
+.background{
+    background-color: lightgray;
+}
+
+/*LINKS AT TOP OF PAGE*/
+
+a {
+    color:darkslategrey;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link{
+    color: darkslategrey;
+}
+
+a:hover{
+    text-decoration: underline pink;
+}
+
+.lush{
+    color: darkslategray;
+    font-family: 'Nanum Myeongjo', serif;
+    text-decoration: none;
+}
+
+/* HEADER & FOOTER */
+
+.Footer{
+    background-image: url('../img/watercolor.png');
+    color:slategrey;
+    font-size: 1.1em;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+}
+
+.Header{
+    background-image: url('../img/watercolor.png');
+}
+
+.Logo{
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    height: 80px;
+    width: 80px;
+}
+
+.Name{
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    width: 20%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Name:hover{
+    opacity: 0.7;
+}
+
+/* FLEX CONTAINERS */
+
+.flexContainerB {
+    display: flex;
+    margin-right:25%;
+    margin-left: 25%;
+    position: relative;
+
+}
+
+.flexItem {
+    flex-basis: 50%;
+    display: inline-block;
+}
+
+.Link{
+    display: inline-block;
+    position: relative;
+}
+
+.Table{
+    width: 50%;
+    height: 50%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+/* FADE */
+
+.fade {
+    text-transform: none;
+    margin: 0 20px;
+    opacity: 0.0;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    animation-fill-mode: forwards;
+    }
+    
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* SOCIAL ICONS */
+
+.social-icons li img {
+    width:50px;
+    height:50px;
+    margin-right:10px;
+}
+
+.social-icons li {
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    float: right;
+}
+
+.social-icons:hover{
+    opacity: 0.7;
+}
+
+/*PAGE BORDER*/
+
+.border{
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 50px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 50px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 50px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+/* RETURN TOP ARROW */
+
+.return-to-top {
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-to-top:hover {
+    opacity: 0.5;
+}
+
+/* IMAGES */
+
+img{
+    max-width: 100%;
+}
+
+.Images{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 30%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.column{
+    float: left;
+    width: 45%;
+    display: flex;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/* LIST & BULLET POINT */
+
+.list-circle{
+    list-style-type: circle;
+}
+
+.food-list li{
+    margin-top: 0.8rem;
+}
+
+/* FORM */
+
+.form_col{
+    color: red;
+}
+
+.form_field{
+    background-color: transparent;
+    border: 0;
+    width: 33%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-bottom:2px solid darkslategray;
+    line-height: 1.5;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+input[type = "text"]{
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    cursor: text;
+    font-family: 'Nanum Myeongjo', serif;
+    color: darkslategrey;
+    overflow: visible;
+}
+
+.btn{
+    position: relative;
+    padding: 6px 6px 6p 6px;
+    border: 1px solid darkslategray;
+    background-color: transparent;
+    color: darkslategray;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    width: 10%;
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:pink;
+}
+
+/* Caption text */
+.text {
+  color: lightgray;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:darkslategray;
+}
+
+/* Fading animation */
+.fade_animation {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade_animation {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade_animation {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
