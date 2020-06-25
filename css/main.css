@@ -339,7 +339,7 @@ input[type = "text"]{
 }
 
 .date{
-    font: normal normal 14px/1.4 'DidotLT-Roman', serif;
+    font-family: 'Oranienbaum', serif;
     vertical-align: baseline;
     background: transparent;
     font-size: 18px;
