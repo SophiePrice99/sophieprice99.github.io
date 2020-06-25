@@ -338,3 +338,9 @@ input[type = "text"]{
     width: 10%;
 }
 
+.date{
+    font: normal normal 14px/1.4 'DidotLT-Roman', serif;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 18px;
+}
