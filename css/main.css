@@ -358,24 +358,13 @@ input[type = "text"]{
     justify-content: space-evenly;
     flex-shrink: 0;
 }
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .6s ease;
-    background-color: white;
-}
-  
-.imagehover:hover .overlay {
+
+.imagehover:hover{
+    transition: .5s ease;
     opacity: 0.7;
 }
   
+
 .text {
     color: darkslategray;
     font-size: 1.5rem;
