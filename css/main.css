@@ -365,7 +365,7 @@ input[type = "text"]{
     left: 50%;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
+    opacity: 1;
     transition: .5s ease;
     background-color: darkslategray;
     text-align: center;
