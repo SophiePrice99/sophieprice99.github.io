@@ -350,11 +350,11 @@ input[type = "text"]{
 
 .container {
     position: relative;
-    width: 100%;
+    width: 22%;
 }
   
 .image {
-    width: 100%;
+    width: 22%;
     height: auto;
     display: block;
 }
