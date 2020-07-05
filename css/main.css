@@ -383,6 +383,6 @@ input[type = "text"]{
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
+.row:hover .overlay {
   opacity: 1;
 }
