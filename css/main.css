@@ -352,8 +352,7 @@ input[type = "text"]{
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  display: flex;
-  justify-content: center;
+  width: 30%
 }
 
 /* Make the image to responsive */
