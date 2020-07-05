@@ -355,7 +355,7 @@ input[type = "text"]{
   
 .image {
     display: block;
-    width: 100%;
+    width: 22;
     height: auto;
     justify-content: space-evenly;
 }
@@ -367,7 +367,7 @@ input[type = "text"]{
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 22%;
     opacity: 0;
     transition: .5s ease;
     background-color: white;
