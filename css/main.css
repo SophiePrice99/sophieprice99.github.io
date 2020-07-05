@@ -367,8 +367,8 @@ input[type = "text"]{
 .overlay {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: darkslategray(0, 0, 0);
+  background: darkslategray(0, 0, 0, 0.5); /* grey see-through */
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
