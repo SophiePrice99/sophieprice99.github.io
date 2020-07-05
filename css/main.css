@@ -358,9 +358,14 @@ input[type = "text"]{
 
 /* Make the image to responsive */
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 30%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
