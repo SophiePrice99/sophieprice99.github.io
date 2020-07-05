@@ -363,7 +363,7 @@ input[type = "text"]{
   height: auto;
   position: relative;
   object-fit: cover;
-  display: block;
+  display: flex;
   justify-content: space-evenly;
   flex-shrink: 0;
 }
