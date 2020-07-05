@@ -355,7 +355,7 @@ input[type = "text"]{
   
 .image {
     display: block;
-    width: 100%;
+    width: 22%;
     height: auto;
 }
   
@@ -369,15 +369,15 @@ input[type = "text"]{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: darkslategray;
+    background-color: white;
 }
   
 .container:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.7;
 }
   
 .text {
-    color: white;
+    color: darkslategray;
     font-size: 20px;
     position: absolute;
     top: 50%;
