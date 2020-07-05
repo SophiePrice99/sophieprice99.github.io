@@ -355,8 +355,9 @@ input[type = "text"]{
   
 .image {
     display: block;
-    width: 100%;
+    width: 22%;
     height: auto;
+    justify-content: space-evenly;
 }
   
 .overlay {
