@@ -347,7 +347,7 @@ input[type = "text"]{
 
 
 
-
+/* */
   
 .image {
     padding: 0.5em 0.5em 0.5em 0.5em;
@@ -357,6 +357,7 @@ input[type = "text"]{
     object-fit: cover;
     justify-content: space-evenly;
     flex-shrink: 0;
+    display: block;
 }
 
   
