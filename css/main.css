@@ -352,26 +352,28 @@ input[type = "text"]{
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
+  width: 50%;
+  max-width: 300px;
 }
 
 /* Make the image to responsive */
 .image {
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  width: 22%;
-  height: auto;
-  position: relative;
-  object-fit: cover;
-  display: flex;
-  justify-content: space-evenly;
-  flex-shrink: 0;
-}
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 22%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+  }
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
   bottom: 0;
-  background: darkslategray(0, 0, 0);
-  background: darkslategray(0, 0, 0, 0.5); /* grey see-through */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
