@@ -369,11 +369,11 @@ input[type = "text"]{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: darkslategray;
 }
   
 .container:hover .overlay {
-    opacity: 1;
+    opacity: 0.5;
 }
   
 .text {
