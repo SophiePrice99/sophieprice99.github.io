@@ -352,19 +352,16 @@ input[type = "text"]{
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
+  width: 50%;
+  max-width: 300px;
 }
 
 /* Make the image to responsive */
 .image {
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    width: 22%;
-    height: auto;
-    position: relative;
-    object-fit: cover;
-    display: flex;
-    justify-content: space-evenly;
-    flex-shrink: 0;
-  }
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
@@ -385,4 +382,6 @@ input[type = "text"]{
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+}
+opacity: 1;
 }
