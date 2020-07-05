@@ -355,7 +355,7 @@ input[type = "text"]{
   
 .image {
     padding: 0.5em 0.5em 0.5em 0.5em;
-    width: 50%;
+    width: 100%;
     height: auto;
     position: relative;
     object-fit: cover;
@@ -371,7 +371,7 @@ input[type = "text"]{
     left: 0;
     right: 0;
     height: 100%;
-    width: 50%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: white;
