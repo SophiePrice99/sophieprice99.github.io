@@ -354,10 +354,14 @@ input[type = "text"]{
 }
   
 .image {
-    display: block;
-    width: 22;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 22%;
     height: auto;
+    position: relative;
+    object-fit: cover;
+    display: flex;
     justify-content: space-evenly;
+    flex-shrink: 0;
 }
   
 .overlay {
