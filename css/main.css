@@ -348,12 +348,8 @@ input[type = "text"]{
 
 
 
-.container {
-    position: relative;
-    width: 500%;
-}
   
-.image {
+.imagehover {
     padding: 0.5em 0.5em 0.5em 0.5em;
     width: 30%;
     height: auto;
@@ -376,7 +372,7 @@ input[type = "text"]{
     background-color: white;
 }
   
-.container:hover .overlay {
+.imagehover:hover .overlay {
     opacity: 0.7;
 }
   
