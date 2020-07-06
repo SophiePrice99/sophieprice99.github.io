@@ -375,6 +375,10 @@ input[type = "text"]{
 .container:hover .overlay {
     opacity: 1;
 }
+
+.container:hover .image {
+    opacity: 0.4;
+}
   
 .text {
     color: darkslategray;
@@ -386,5 +390,6 @@ input[type = "text"]{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    vertical-align: middle;
 }
   
