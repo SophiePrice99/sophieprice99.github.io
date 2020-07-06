@@ -374,7 +374,7 @@ input[type = "text"]{
     left: 0;
     right: 0;
     height: auto;
-    width: 75%;
+    width: 20%;
     opacity: 0;
     transition: .5s ease;
     padding: 0.5em 0.5em 0.5em 0.5em;
