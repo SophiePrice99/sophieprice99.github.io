@@ -371,6 +371,7 @@ input[type = "text"]{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }
   
 .container:hover .overlay {
