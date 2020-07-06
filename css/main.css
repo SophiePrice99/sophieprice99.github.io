@@ -348,20 +348,19 @@ input[type = "text"]{
 
 
 /* */
-  
-.image {
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    width: 30%;
-    height: auto;
-    position: relative;
-    object-fit: cover;
-    justify-content: space-evenly;
-    flex-shrink: 0;
-    display: block;
-}
 
+.container {
+    position: relative;
+    width: 50%;
+  }
   
-.overlay {
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -371,13 +370,13 @@ input[type = "text"]{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-}
+  }
   
-.image:hover .overlay {
-    opacity: 0.5;
-}
+  .container:hover .overlay {
+    opacity: 1;
+  }
   
-.text {
+  .text {
     color: darkslategray;
     font-size: 1.5rem;
     position: absolute;
@@ -386,8 +385,6 @@ input[type = "text"]{
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    text-align: center;
+  }
   
