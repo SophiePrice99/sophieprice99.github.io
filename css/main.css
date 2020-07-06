@@ -380,11 +380,11 @@ input[type = "text"]{
 }
 
 .container:hover .image {
-    opacity: 0.4;
+    opacity: 0.3;
 }
   
 .text {
-    color: darkslategray;
+    color: red;
     font-size: 1.5rem;
     position: absolute;
     top: 50%;
