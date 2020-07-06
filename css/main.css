@@ -352,6 +352,7 @@ input[type = "text"]{
 .container {
     position: relative;
     width: 33%;
+    height: auto;
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
   
@@ -380,11 +381,11 @@ input[type = "text"]{
 }
 
 .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.4;
 }
   
 .text {
-    color: red;
+    color: darkslategray;
     font-size: 1.5rem;
     position: absolute;
     top: 50%;
