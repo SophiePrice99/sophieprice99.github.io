@@ -357,7 +357,7 @@ input[type = "text"]{
   
 .image {
     display: block;
-    width: 100%;
+    width: 33%;
     height: auto;
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
@@ -369,7 +369,7 @@ input[type = "text"]{
     left: 0;
     right: 0;
     height: auto;
-    width: 100%;
+    width: 33%;
     opacity: 0;
     transition: .5s ease;
     padding: 0.5em 0.5em 0.5em 0.5em;
