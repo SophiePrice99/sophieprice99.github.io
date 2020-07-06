@@ -352,15 +352,15 @@ input[type = "text"]{
 .container {
     position: relative;
     width: 50%;
-  }
+}
   
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
   
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -370,13 +370,13 @@ input[type = "text"]{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-  }
+}
   
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 1;
-  }
+}
   
-  .text {
+.text {
     color: darkslategray;
     font-size: 1.5rem;
     position: absolute;
@@ -386,5 +386,5 @@ input[type = "text"]{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
   
