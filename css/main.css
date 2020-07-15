@@ -357,7 +357,7 @@ input[type = "text"]{
   
 .image {
     display: block;
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
