@@ -356,7 +356,8 @@ input[type = "text"]{
 }
   
 .image {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 90%;
     height: auto;
     padding: 0.5em 0.5em 0.5em 0.5em;
